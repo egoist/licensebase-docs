@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "openapi-gen": "pnpx @mintlify/scraping@latest openapi-file https://licensebase.io/api/openapi.json -o api-reference"
+  }
+}

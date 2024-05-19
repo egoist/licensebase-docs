@@ -1,11 +1,7 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Licensebase",
   "openapi": "https://licensebase.io/api/openapi.json",
-  "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
-  },
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#0D9373",
@@ -19,12 +15,12 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:kevin@licensebase.io"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Home",
+    "url": "https://licensebase.io"
   },
   "tabs": [
     {
@@ -32,55 +28,35 @@
       "url": "api-reference"
     }
   ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    }
-  ],
+  "anchors": [],
   "navigation": [
     {
       "group": "Get Started",
-      "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
+      "pages": ["introduction"]
     },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
+
     {
       "group": "API Documentation",
+      "pages": ["api-reference/introduction"]
+    },
+
+    {
+      "group": "License",
       "pages": [
-        "api-reference/introduction"
+        "api-reference/license/get-licenses",
+        "api-reference/license/post-licenses",
+        "api-reference/license/post-licensesactivate",
+        "api-reference/license/post-licensesvalidate",
+        "api-reference/license/post-licensesdeactivate"
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Product",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "api-reference/product/get-products",
+        "api-reference/product/post-products",
+        "api-reference/product/get-products-1",
+        "api-reference/product/post-products-1"
       ]
     }
   ],
